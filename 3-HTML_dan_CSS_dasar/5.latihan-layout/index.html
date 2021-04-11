@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            margin: 0px auto;
+        }
+        .header {
+            min-height: 50px;
+            text-align: center;
+        }
+        .header img {
+            width: 300px;
+        }
+        .header ul li {
+            display: inline-block;
+            text-decoration: none;
+            margin: 0px 10px;
+            cursor: pointer;
+            position: relative;
+        }
+        .header .submenu {
+            border: 1px solid #ccc;
+            text-align: left;
+            position: absolute;
+            top: 20px;
+            left: 0;
+        }
+        .header .submenu li {
+            display: block;
+            padding: 5px 10px;
+        }
+        ul.submenu {
+            background-color: #eee;
+            border: 1px solid #ccc;
+            text-align: left;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            display: none;
+        }
+        .header ul li:hover ul.submenu  {
+            display: block;
+        }
+
+        .content {
+            background-color: grey;
+            min-height: 500px;
+            padding: 5px 10px;
+            overflow: auto;
+            
+            
+        }
+        .content .thumbnail {
+            width: 300px;
+            float: left;
+            background-color: white;
+            padding: 5px;
+            text-align: center;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+        .content .thumbnail .kotak {
+            margin: auto;
+            width: 250px;
+            height: 150px;
+            background-color: gray;
+        }
+        .footer {
+            background-color: rgb(175, 175, 175);
+            min-height: 50px;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="img.png">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <ul class="submenu">
+                    <li>CV</li>
+                    <li>Education</li>
+                    <li>Portofolio</li>
+                </ul>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>My Product</h2>
+            <div class="thumbnail">
+                <div class="kotak"></div>
+                <h4>Product 1</h4>
+                <p>Rp.100.000</p>
+            </div>
+            <div class="thumbnail">
+                <div class="kotak"></div>
+                <h4>Product 2</h4>
+                <p>Rp.100.000</p>
+            </div>
+            <div class="thumbnail">
+                <div class="kotak"></div>
+                <h4>Product 3</h4>
+                <p>Rp.100.000</p>
+            </div>
+            <div class="thumbnail">
+                <div class="kotak"></div>
+                <h4>Product 4</h4>
+                <p>Rp.100.000</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>copyright 2021 My WebPage</p>
+        </div>
+    </div>
+
+</body>
+</html>
