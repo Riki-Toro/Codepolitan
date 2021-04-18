@@ -1,0 +1,44 @@
+<!-- ARRAY -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Array</title>
+</head>
+<body>
+    
+
+    <script>
+        let mobil = ["avanza", "ayla", "agya"];
+        // mobil = "fortuner";
+        console.log(mobil);
+
+        // mobil pertama
+        let mobilPertama = mobil[0];
+        console.log(mobilPertama);
+
+        // mobil terakhir
+        let mobilTerakhir = mobil[mobil.length - 1];
+        console.log(mobilTerakhir);
+
+        // mengubah array ke string
+        console.log(mobil.toString());
+
+        // join()
+        console.log(mobil.join(" - "));
+
+        // pop()
+        console.log(mobil.pop());
+
+        // push()
+        console.log(mobil.push("fortuner"));
+
+        // menggabungkan array
+        let mobilBaru = ["mercy", "bmw", "ferrari"];
+        console.log(mobil.concat(mobilBaru));
+
+    </script>
+</body>
+</html>
