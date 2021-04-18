@@ -1,0 +1,35 @@
+<!-- OBJECT JAVASCRIPT -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Object</title>
+</head>
+<body>
+    
+
+    <script>
+        let mobil = {
+            nama: "toyota",
+            tipe: "agya",
+            berat: 600,
+            warna: "putih",
+
+            maju: function() {
+                return "mobil maju";
+            },
+
+            mundur: function() {
+                return "mobil mundur";
+            }
+        };
+
+        console.log(mobil);
+        console.log(mobil['nama']);
+
+        console.log(mobil['maju']);
+    </script>
+</body>
+</html>
