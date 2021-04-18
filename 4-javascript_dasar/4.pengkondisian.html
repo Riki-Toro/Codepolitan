@@ -1,0 +1,50 @@
+<!-- PENGKONDISIAN -->
+<!-- IF, ELSE, ELSE IF, SWITCH -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Pengkondisian</title>
+</head>
+<body>
+    
+    <script>
+        let lampuu = 0;
+        let lampu = "merah";
+
+        // if (lampuu == 0) {
+        //     console.log("lampu menyala");
+        // } else {
+        //     console.log("lampu mati");
+        // }
+
+        // if (lampu == "merah") {
+        //     console.log("lampu menyala merah");
+        // } else if(lampu == "kuning") {
+        //     console.log("lampu menyala kuning");
+        // } else if(lampu == "hijau") {
+        //     console.log("lampu menyala hijau");
+        // } else {
+        //     console.log("lampu berwarna lain!");
+        // }
+
+        switch (lampu) {
+            case 'merah':
+                console.log("lampu menyala merah!");
+            break;
+            case 'kuning':
+                console.log("lampu menyala kuning!");
+            break;
+            case 'hijau':
+                console.log("lampu menyala hijau!");
+            break;
+            default:
+                console.log("lampu mati!");
+            break;
+        }
+
+    </script>
+</body>
+</html>
